@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vaxicy/porcelain-botany-theme/main/assets/icon.png" alt="Porcelain Botany Theme logo" width="128">
+  <img src="https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/assets/icon.png" alt="Porcelain Botany Theme logo" width="128">
 </p>
 
 <h1 align="center">Porcelain Botany Theme</h1>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-botany-theme"><img src="https://img.shields.io/badge/VS%20Code-Theme-71869B?logo=visual-studio-code" alt="VS Code Theme"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme"><img src="https://img.shields.io/badge/VS%20Code-Theme-71869B?logo=visual-studio-code" alt="VS Code Theme"></a>
   <img src="https://img.shields.io/badge/version-1.0.0-48515A?logo=visual-studio-code" alt="version 1.0.0">
   <img src="https://img.shields.io/badge/Variants-Light%20%26%20Dark-C4A7B7?logo=visual-studio-code" alt="Light and Dark variants">
-  <a href="https://github.com/vaxicy/porcelain-botany-theme/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Non--Commercial-lightgrey" alt="License: Non-Commercial"></a>
+  <a href="https://github.com/vaxicy/porcelain-herbarium-theme/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Non--Commercial-lightgrey" alt="License: Non-Commercial"></a>
 </p>
 
 A botanical study pressed onto porcelain: **cream-white paper**, **dusty mauve petals**, **sage leaves** and **blue-gray slate ink**. The light variant reads like a flower album on a sunlit desk; the dark variant is the same album after dusk, paper turned deep slate and ink swapped for pale sage. Both variants are cut from one palette, so switching changes the light level rather than the character of the workspace.
@@ -19,7 +19,7 @@ A botanical study pressed onto porcelain: **cream-white paper**, **dusty mauve p
 
 | Light 浅色 | Dark 深色 |
 | --- | --- |
-| ![Porcelain Botany Theme Light](https://raw.githubusercontent.com/vaxicy/porcelain-botany-theme/main/store-assets/screenshots/en/screenshot-light.png) | ![Porcelain Botany Theme Dark](https://raw.githubusercontent.com/vaxicy/porcelain-botany-theme/main/store-assets/screenshots/en/screenshot-dark.png) |
+| ![Porcelain Botany Theme Light](https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/store-assets/screenshots/en/screenshot-light.png) | ![Porcelain Botany Theme Dark](https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/store-assets/screenshots/en/screenshot-dark.png) |
 
 > Both previews are captured from a real VS Code window running the theme — no mockups.
 >
@@ -109,20 +109,20 @@ Every surface below is themed in both variants (144 UI colors each):
 
 Requires VS Code 1.80 or newer.
 
-1. Search for **Porcelain Botany Theme** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or open the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-botany-theme).
-2. Or install from a VSIX: download `porcelain-botany-theme-1.0.0.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
+1. Search for **Porcelain Botany Theme** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or open the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme).
+2. Or install from a VSIX: download `porcelain-herbarium-theme-1.0.0.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
 
 需要 VS Code 1.80 或更高版本。
 
-1. 在扩展面板（`Ctrl+Shift+X` / `Cmd+Shift+X`）搜索 **Porcelain Botany Theme**，或打开 [Marketplace 页面](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-botany-theme)。
-2. 也可以从 VSIX 安装：下载 `porcelain-botany-theme-1.0.0.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选择该文件。
+1. 在扩展面板（`Ctrl+Shift+X` / `Cmd+Shift+X`）搜索 **Porcelain Botany Theme**，或打开 [Marketplace 页面](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme)。
+2. 也可以从 VSIX 安装：下载 `porcelain-herbarium-theme-1.0.0.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选择该文件。
 
 Or from the command line:
 
 或使用命令行：
 
 ```
-ext install lilinhuang.porcelain-botany-theme
+ext install lilinhuang.porcelain-herbarium-theme
 ```
 
 ## Activation / 启用
@@ -182,9 +182,9 @@ Released under the **Non-Commercial License** — licensed for personal, educati
 
 ## Feedback / 反馈
 
-Found an unthemed area or want a tweak? Open an issue at [github.com/vaxicy/porcelain-botany-theme/issues](https://github.com/vaxicy/porcelain-botany-theme/issues).
+Found an unthemed area or want a tweak? Open an issue at [github.com/vaxicy/porcelain-herbarium-theme/issues](https://github.com/vaxicy/porcelain-herbarium-theme/issues).
 
-发现没有配色的区域或想调整某处颜色，欢迎在 [GitHub Issues](https://github.com/vaxicy/porcelain-botany-theme/issues) 反馈。
+发现没有配色的区域或想调整某处颜色，欢迎在 [GitHub Issues](https://github.com/vaxicy/porcelain-herbarium-theme/issues) 反馈。
 
 ## Publisher / 发布者
 

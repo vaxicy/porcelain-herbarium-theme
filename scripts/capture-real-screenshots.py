@@ -40,7 +40,7 @@ WIDTH, HEIGHT = 1440, 900
 # crop a few extra physical pixels so no dark outline survives the downscale.
 EXTRA_CROP = 3
 PUBLISHER = "lilinhuang"
-NAME = "porcelain-botany-theme"
+NAME = "porcelain-herbarium-theme"
 VERSION = "1.0.0"
 WORK_NAME = "porcelain-botany-demo"   # demo folder name doubles as the window marker
 

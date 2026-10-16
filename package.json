@@ -1,5 +1,5 @@
 {
-  "name": "porcelain-botany-theme",
+  "name": "porcelain-herbarium-theme",
   "displayName": "Porcelain Botany Theme",
   "description": "Porcelain cream, dusty mauve and sage in coordinated light and dark themes.",
   "version": "1.0.0",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vaxicy/porcelain-botany-theme"
+    "url": "https://github.com/vaxicy/porcelain-herbarium-theme"
   },
   "contributes": {
     "themes": [

@@ -19,7 +19,7 @@ for v,t in zip(['light','dark'],themes):
     assert max(abs(a-b) for a,b in zip(col,expected))<2,(v,col,expected)
     edge=ImageStat.Stat(im.crop((0,0,1,im.height-36))).mean
     assert max(abs(a-b) for a,b in zip(edge,expected))<1,(v,edge,expected)
-archive=p/'porcelain-botany-theme-1.0.0.vsix'
+archive=p/'porcelain-herbarium-theme-1.0.0.vsix'
 if archive.exists():
     with zipfile.ZipFile(archive) as z:
         m=json.loads(z.read('extension/package.json'))
