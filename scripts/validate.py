@@ -19,13 +19,14 @@ for v,t in zip(['light','dark'],themes):
     assert max(abs(a-b) for a,b in zip(col,expected))<2,(v,col,expected)
     edge=ImageStat.Stat(im.crop((0,0,1,im.height-36))).mean
     assert max(abs(a-b) for a,b in zip(edge,expected))<1,(v,edge,expected)
-archive=p/'porcelain-herbarium-theme-1.0.0.vsix'
+version=json.loads((p/'package.json').read_text(encoding='utf-8'))['version']
+archive=p/f'porcelain-herbarium-theme-{version}.vsix'
 if archive.exists():
     with zipfile.ZipFile(archive) as z:
         m=json.loads(z.read('extension/package.json'))
-        assert m['publisher']=='lilinhuang' and m['version']=='1.0.0'
+        assert m['publisher']=='lilinhuang' and m['version']==version
         for t in m['contributes']['themes']: assert 'extension/'+t['path'].removeprefix('./') in z.namelist()
-        assert 'Version="1.0.0"' in z.read('extension.vsixmanifest').decode()
+        assert f'Version="{version}"' in z.read('extension.vsixmanifest').decode()
     print('VSIX manifest, publisher, version and theme entries verified')
 
 

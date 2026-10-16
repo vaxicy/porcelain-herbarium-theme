@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme"><img src="https://img.shields.io/badge/VS%20Code-Theme-71869B?logo=visual-studio-code" alt="VS Code Theme"></a>
-  <img src="https://img.shields.io/badge/version-1.0.0-48515A?logo=visual-studio-code" alt="version 1.0.0">
+  <img src="https://img.shields.io/badge/version-0.0.1-48515A?logo=visual-studio-code" alt="version 0.0.1">
   <img src="https://img.shields.io/badge/Variants-Light%20%26%20Dark-C4A7B7?logo=visual-studio-code" alt="Light and Dark variants">
   <a href="https://github.com/vaxicy/porcelain-herbarium-theme/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Non--Commercial-lightgrey" alt="License: Non-Commercial"></a>
 </p>
 
 A botanical study pressed onto porcelain: **cream-white paper**, **dusty mauve petals**, **sage leaves** and **blue-gray slate ink**. The light variant reads like a flower album on a sunlit desk; the dark variant is the same album after dusk, paper turned deep slate and ink swapped for pale sage. Both variants are cut from one palette, so switching changes the light level rather than the character of the workspace.
 
-一层瓷白纸上的植物标本：**奶白的纸面**、**干花藕紫**、**鼠尾草绿**与**灰蓝的墨迹**。浅色版像日光下的干花册，深色版是入夜后的同一本册子——纸面沉为深石板，墨色换成浅鼠尾草。两套变体同出一套色板，切换时改变的是明暗而非气质。
+把一份植物标本压在瓷面上：**奶白的纸**、**干花藕紫**、**鼠尾草绿**，还有**灰蓝的墨**。浅色版是日光下的干花册，深色版是同一本册子入了夜——纸面沉成深石板，墨色换成浅鼠尾草。两套变体共用一套色板，切换时只是光线变了，配色还是同一套。
 
 ## Preview / 预览
 
@@ -23,7 +23,7 @@ A botanical study pressed onto porcelain: **cream-white paper**, **dusty mauve p
 
 > Both previews are captured from a real VS Code window running the theme — no mockups.
 >
-> 上方预览图取自真实运行该主题的 VS Code 窗口截图，非模拟图。
+> 上方预览图都来自真实运行该主题的 VS Code 窗口，不是模拟图。
 
 ## Palette / 色板
 
@@ -76,7 +76,7 @@ Brand palette: porcelain cream `#FBF2DF`, sage `#BCD2A8`, dusty mauve `#C4A7B7`,
 
 Dusty mauve carries keywords, storage and tags, so markup and control flow read as one family; sage green carries strings, and slate blue carries functions. Types reuse the mauve to tie declarations together, while amber numbers, constants and attributes stay warm to keep your eye anchored while scanning.
 
-干花藕紫承担关键字、storage 与标签，让标记语言与控制流读起来是一族；鼠尾草绿给字符串，灰蓝给函数。类型沿用藕紫，把各类声明串成一脉；琥珀色的数字、常量与属性保持暖调，扫读时才有落点。
+关键字、storage 和标签都交给干花藕紫，标记语言跟控制流于是看起来像一家人；字符串用鼠尾草绿，函数用灰蓝。类型沿用藕紫，把各种声明串成一条线；数字、常量与属性保持琥珀色的暖调，扫读代码时有个落脚点。
 
 ## Coverage / 覆盖范围
 
@@ -89,7 +89,7 @@ Every surface below is themed in both variants (144 UI colors each):
 - **Terminal** — background, foreground and the full 16-color ANSI palette, matched to the theme.
 - **Details** — workbench borders, scrollbar sliders, git decoration colors (added / modified / deleted) with their gutter markers, buttons, badges, diff editor backgrounds, and semantic token colors for variable, parameter, property, function, method, type, class and interface.
 
-以下区域在两套变体中均已配色（每套 144 个 UI 颜色）：编辑器本体（选区与失焦选区、当前行、词/选区高亮、查找匹配与高亮、括号匹配、光标、行号、标尺、缩进线、空白符、错误/警告/提示）；活动栏与角标、标题栏、侧边栏（含分节标题）、状态栏（含无文件夹与调试态）、标签栏；面板与各类浮窗（悬停、建议、通知、快速输入）、下拉与输入框、列表选中/悬停/高亮、树缩进线；终端 ANSI 全色；全部边框与滚动条、Git 装饰色与 gutter 标记、按钮与角标、差异编辑器底色，以及变量/参数/属性/函数/方法/类型/类/接口的语义高亮。完整的颜色清单见 `COLOR-SPEC.md`。
+以下这些地方在两套变体里都配了色（每套 144 个 UI 颜色）：编辑器本体（选区与失焦选区、当前行、词与选区高亮、查找匹配与查找高亮、括号匹配、光标、行号、当前行行号、标尺、缩进线、空白符、错误/警告/提示）；活动栏与角标、标题栏、侧边栏（含分节标题）、状态栏（含无文件夹与调试态）、标签栏；面板与各类浮窗（悬停、建议、通知、快速输入）、下拉与输入框、列表选中/悬停/高亮、树缩进线；终端完整的 16 色 ANSI；各种边框与滚动条、Git 装饰色与 gutter 标记、按钮与角标、差异编辑器底色，以及变量/参数/属性/函数/方法/类型/类/接口的语义高亮。完整的颜色清单见 `COLOR-SPEC.md`。
 
 ## Features / 功能
 
@@ -99,23 +99,23 @@ Every surface below is themed in both variants (144 UI colors each):
 - **Semantic highlighting** enabled, so language-aware tokens are colored beyond the classic TextMate scopes.
 - **Terminal ANSI colors** taken from the same palette, so the integrated terminal sits inside the theme.
 
-- **明暗两套协调变体**——同一扩展内含 `Porcelain Herbarium Theme Light` 与 `Porcelain Herbarium Theme Dark`。
-- **一套瓷白植物色板**——浅色为瓷白与暖砂的底色，深色为深石板，配鼠尾草绿、藕紫与灰蓝点缀。
-- **可读的语法配色**——藕紫的关键字、鼠尾草绿的字符串、灰蓝的函数与琥珀色数字，在明暗底色上都保持对比。
-- **启用语义高亮**，在传统 TextMate scope 之外为语言感知的 token 着色。
-- **终端 ANSI 配色**取自同一色板，集成终端与主题融为一体。
+- **明暗两套变体，风格统一**——同一个扩展里就带着 `Porcelain Herbarium Theme Light` 和 `Porcelain Herbarium Theme Dark`。
+- **一套瓷白植物色板**——浅色是瓷白与暖砂的底，深色是深石板，再用鼠尾草绿、藕紫和灰蓝点缀。
+- **看得清的语法配色**——藕紫的关键字、鼠尾草绿的字符串、灰蓝的函数、琥珀色的数字，在明暗两种底色上都保持足够对比。
+- **开启语义高亮**：除了传统 TextMate scope，还按语言语义给 token 上色。
+- **终端 ANSI 配色**取自同一套色板，集成终端不会跳出主题之外。
 
 ## Installation / 安装
 
 Requires VS Code 1.80 or newer.
 
 1. Search for **Porcelain Herbarium Theme** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or open the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme).
-2. Or install from a VSIX: download `porcelain-herbarium-theme-1.0.0.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
+2. Or install from a VSIX: download `porcelain-herbarium-theme-0.0.1.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
 
 需要 VS Code 1.80 或更高版本。
 
 1. 在扩展面板（`Ctrl+Shift+X` / `Cmd+Shift+X`）搜索 **Porcelain Herbarium Theme**，或打开 [Marketplace 页面](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme)。
-2. 也可以从 VSIX 安装：下载 `porcelain-herbarium-theme-1.0.0.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选择该文件。
+2. 也可以从 VSIX 安装：下载 `porcelain-herbarium-theme-0.0.1.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选中该文件。
 
 Or from the command line:
 
@@ -133,7 +133,7 @@ To switch between the two variants quickly, use the keyboard shortcut `Ctrl+K Ct
 
 打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Preferences: Color Theme**，选择 **Porcelain Herbarium Theme Light** 或 **Porcelain Herbarium Theme Dark**。
 
-随时可用快捷键 `Ctrl+K Ctrl+T` 在两套变体之间快速切换。
+两套变体随时可以用快捷键 `Ctrl+K Ctrl+T` 切换。
 
 ## Development / 开发
 
@@ -152,7 +152,7 @@ python scripts/capture-real-screenshots.py light      # one variant
 
 The script builds a throwaway VS Code profile in a temp directory, installs this theme into it, opens the sample project under `scripts/demo-project`, captures the window (cropping the OS window frame), and writes the result to `store-assets/screenshots/en/`.
 
-脚本会在临时目录里创建一个独立的 VS Code 配置，把本主题装进去，打开 `scripts/demo-project` 示例工程，截取窗口（并裁掉系统窗口边框），输出到 `store-assets/screenshots/en/`。
+脚本会先在临时目录里建一份独立的 VS Code 配置，把本主题装进去，打开 `scripts/demo-project` 示例工程，截图时裁掉系统窗口边框，结果写到 `store-assets/screenshots/en/`。
 
 Check a build before publishing:
 
@@ -164,7 +164,7 @@ python scripts/validate.py
 
 It refreshes `COLOR-SPEC.md` from the theme JSON files, verifies that every color value is a valid hex code, checks that the screenshot edges match `titleBar.activeBackground`, and — when a `.vsix` is present — verifies the manifest publisher, version and theme entries.
 
-脚本会依据主题 JSON 重新生成 `COLOR-SPEC.md`，校验所有颜色值均为合法十六进制，检查截图首行/首列与 `titleBar.activeBackground` 一致，并在存在 `.vsix` 时校验清单里的发布者、版本与主题条目。
+脚本会照着主题 JSON 重新生成 `COLOR-SPEC.md`，检查每个颜色值都是合法的十六进制，核对截图首行与首列的颜色和 `titleBar.activeBackground` 对得上，另外只要目录里有 `.vsix`，还会检查清单里的发布者、版本和主题条目。
 
 Package the extension with:
 

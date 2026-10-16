@@ -41,7 +41,7 @@ WIDTH, HEIGHT = 1440, 900
 EXTRA_CROP = 3
 PUBLISHER = "lilinhuang"
 NAME = "porcelain-herbarium-theme"
-VERSION = "1.0.0"
+VERSION = json.loads(open(os.path.join(BASE, "package.json"), encoding="utf-8").read())["version"]
 WORK_NAME = "porcelain-herbarium-demo"   # demo folder name doubles as the window marker
 
 VARIANTS = [
