@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Capture real VS Code windows running the Aqua Veil theme.
+"""Capture real VS Code windows running the Porcelain Botany theme.
 
 For every variant (light / dark) the script:
   1. builds an isolated VS Code profile (own --user-data-dir / --extensions-dir),
@@ -40,13 +40,13 @@ WIDTH, HEIGHT = 1440, 900
 # crop a few extra physical pixels so no dark outline survives the downscale.
 EXTRA_CROP = 3
 PUBLISHER = "lilinhuang"
-NAME = "aqua-veil-theme"
+NAME = "porcelain-botany-theme"
 VERSION = "1.0.0"
-WORK_NAME = "aqua-veil-demo"   # demo folder name doubles as the window marker
+WORK_NAME = "porcelain-botany-demo"   # demo folder name doubles as the window marker
 
 VARIANTS = [
-    ("light", "Aqua Veil Theme Light"),
-    ("dark", "Aqua Veil Theme Dark"),
+    ("light", "Porcelain Botany Theme Light"),
+    ("dark", "Porcelain Botany Theme Dark"),
 ]
 
 user32 = ctypes.WinDLL("user32", use_last_error=True)
@@ -391,4 +391,5 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
 

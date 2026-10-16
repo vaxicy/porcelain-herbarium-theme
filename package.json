@@ -1,6 +1,6 @@
 {
-  "name": "aqua-veil-theme",
-  "displayName": "Aqua Veil Theme",
+  "name": "porcelain-botany-theme",
+  "displayName": "Porcelain Botany Theme",
   "description": "Washed sea-glass aqua, sage leaves and pressed-flower mauve in coordinated light and dark themes.",
   "version": "1.0.0",
   "publisher": "lilinhuang",
@@ -27,22 +27,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vaxicy/aqua-veil-theme"
+    "url": "https://github.com/vaxicy/porcelain-botany-theme"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Aqua Veil Theme Light",
+        "label": "Porcelain Botany Theme Light",
         "uiTheme": "vs",
-        "path": "./themes/aqua-veil-light-color-theme.json"
+        "path": "./themes/porcelain-botany-light-color-theme.json"
       },
       {
-        "label": "Aqua Veil Theme Dark",
+        "label": "Porcelain Botany Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/aqua-veil-dark-color-theme.json"
+        "path": "./themes/porcelain-botany-dark-color-theme.json"
       }
     ]
   }
 }
+
 
 

@@ -1,4 +1,4 @@
-// Aqua Veil Theme — ice aqua, sea glass and quiet mist
+// Porcelain Botany Theme — porcelain cream, dusty mauve, sage and blue-gray teal
 import { readFile } from 'node:fs/promises';
 
 const FLOWER_PALETTE = {
@@ -15,7 +15,7 @@ export class GardenLetter {
     this.colors = Object.values(FLOWER_PALETTE);
   }
 
-  /** Blend two colors into a soft water-inspired shade. */
+  /** Blend two colors into a soft botanical-inspired shade. */
   blend(from, to, ratio = 0.5) {
     const parse = (hex) => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16));
     const [a, b] = [parse(from), parse(to)];
@@ -31,4 +31,5 @@ export class GardenLetter {
 
 const cloud = new GardenLetter();
 console.log(cloud.blend(FLOWER_PALETTE.slate, FLOWER_PALETTE.cream));
+
 

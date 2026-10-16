@@ -2,8 +2,8 @@ import json,re,zipfile
 from pathlib import Path
 from PIL import Image,ImageStat
 p=Path(__file__).resolve().parents[1]
-out=['# Aqua Veil Theme color specification','', '| VS Code region | Light | Dark |','|---|---|---|']
-themes=[json.loads((p/'themes'/f'aqua-veil-{v}-color-theme.json').read_text()) for v in ['light','dark']]
+out=['# Porcelain Botany Theme color specification','', '| VS Code region | Light | Dark |','|---|---|---|']
+themes=[json.loads((p/'themes'/f'porcelain-botany-{v}-color-theme.json').read_text()) for v in ['light','dark']]
 for k in themes[0]['colors']:
     out.append(f"| `{k}` | `{themes[0]['colors'][k]}` | `{themes[1]['colors'][k]}` |")
 (p/'COLOR-SPEC.md').write_text('\n'.join(out)+'\n',encoding='utf-8')
@@ -19,7 +19,7 @@ for v,t in zip(['light','dark'],themes):
     assert max(abs(a-b) for a,b in zip(col,expected))<2,(v,col,expected)
     edge=ImageStat.Stat(im.crop((0,0,1,im.height-36))).mean
     assert max(abs(a-b) for a,b in zip(edge,expected))<1,(v,edge,expected)
-archive=p/'aqua-veil-theme-1.0.0.vsix'
+archive=p/'porcelain-botany-theme-1.0.0.vsix'
 if archive.exists():
     with zipfile.ZipFile(archive) as z:
         m=json.loads(z.read('extension/package.json'))
@@ -27,4 +27,5 @@ if archive.exists():
         for t in m['contributes']['themes']: assert 'extension/'+t['path'].removeprefix('./') in z.namelist()
         assert 'Version="1.0.0"' in z.read('extension.vsixmanifest').decode()
     print('VSIX manifest, publisher, version and theme entries verified')
+
 

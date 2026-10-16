@@ -1,4 +1,3 @@
-# Aqua Veil
+# Porcelain Botany
 
-Soft ice blue and lavender.
-
+Porcelain cream, dusty mauve, sage and blue-gray slate.
