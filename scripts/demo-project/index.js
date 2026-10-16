@@ -1,4 +1,4 @@
-// Porcelain Botany Theme — porcelain cream, dusty mauve, sage and blue-gray teal
+// Porcelain Herbarium Theme — porcelain cream, dusty mauve, sage and blue-gray teal
 import { readFile } from 'node:fs/promises';
 
 const FLOWER_PALETTE = {

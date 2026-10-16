@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/assets/icon.png" alt="Porcelain Botany Theme logo" width="128">
+  <img src="https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/assets/icon.png" alt="Porcelain Herbarium Theme logo" width="128">
 </p>
 
-<h1 align="center">Porcelain Botany Theme</h1>
+<h1 align="center">Porcelain Herbarium Theme</h1>
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme"><img src="https://img.shields.io/badge/VS%20Code-Theme-71869B?logo=visual-studio-code" alt="VS Code Theme"></a>
@@ -19,7 +19,7 @@ A botanical study pressed onto porcelain: **cream-white paper**, **dusty mauve p
 
 | Light 浅色 | Dark 深色 |
 | --- | --- |
-| ![Porcelain Botany Theme Light](https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/store-assets/screenshots/en/screenshot-light.png) | ![Porcelain Botany Theme Dark](https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/store-assets/screenshots/en/screenshot-dark.png) |
+| ![Porcelain Herbarium Theme Light](https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/store-assets/screenshots/en/screenshot-light.png) | ![Porcelain Herbarium Theme Dark](https://raw.githubusercontent.com/vaxicy/porcelain-herbarium-theme/main/store-assets/screenshots/en/screenshot-dark.png) |
 
 > Both previews are captured from a real VS Code window running the theme — no mockups.
 >
@@ -93,13 +93,13 @@ Every surface below is themed in both variants (144 UI colors each):
 
 ## Features / 功能
 
-- **Two coordinated variants** — `Porcelain Botany Theme Light` and `Porcelain Botany Theme Dark` ship in one extension.
+- **Two coordinated variants** — `Porcelain Herbarium Theme Light` and `Porcelain Herbarium Theme Dark` ship in one extension.
 - **One porcelain palette** — cream and warm-sand surfaces in light, deep slate in dark, with sage, mauve and slate-blue accents.
 - **Readable syntax colors** — dusty-mauve keywords, sage strings, slate-blue functions and amber numbers, tuned for contrast on both backgrounds.
 - **Semantic highlighting** enabled, so language-aware tokens are colored beyond the classic TextMate scopes.
 - **Terminal ANSI colors** taken from the same palette, so the integrated terminal sits inside the theme.
 
-- **明暗两套协调变体**——同一扩展内含 `Porcelain Botany Theme Light` 与 `Porcelain Botany Theme Dark`。
+- **明暗两套协调变体**——同一扩展内含 `Porcelain Herbarium Theme Light` 与 `Porcelain Herbarium Theme Dark`。
 - **一套瓷白植物色板**——浅色为瓷白与暖砂的底色，深色为深石板，配鼠尾草绿、藕紫与灰蓝点缀。
 - **可读的语法配色**——藕紫的关键字、鼠尾草绿的字符串、灰蓝的函数与琥珀色数字，在明暗底色上都保持对比。
 - **启用语义高亮**，在传统 TextMate scope 之外为语言感知的 token 着色。
@@ -109,12 +109,12 @@ Every surface below is themed in both variants (144 UI colors each):
 
 Requires VS Code 1.80 or newer.
 
-1. Search for **Porcelain Botany Theme** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or open the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme).
+1. Search for **Porcelain Herbarium Theme** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or open the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme).
 2. Or install from a VSIX: download `porcelain-herbarium-theme-1.0.0.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
 
 需要 VS Code 1.80 或更高版本。
 
-1. 在扩展面板（`Ctrl+Shift+X` / `Cmd+Shift+X`）搜索 **Porcelain Botany Theme**，或打开 [Marketplace 页面](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme)。
+1. 在扩展面板（`Ctrl+Shift+X` / `Cmd+Shift+X`）搜索 **Porcelain Herbarium Theme**，或打开 [Marketplace 页面](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme)。
 2. 也可以从 VSIX 安装：下载 `porcelain-herbarium-theme-1.0.0.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选择该文件。
 
 Or from the command line:
@@ -127,11 +127,11 @@ ext install lilinhuang.porcelain-herbarium-theme
 
 ## Activation / 启用
 
-Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run **Preferences: Color Theme**, and choose **Porcelain Botany Theme Light** or **Porcelain Botany Theme Dark**.
+Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`), run **Preferences: Color Theme**, and choose **Porcelain Herbarium Theme Light** or **Porcelain Herbarium Theme Dark**.
 
 To switch between the two variants quickly, use the keyboard shortcut `Ctrl+K Ctrl+T` at any time.
 
-打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Preferences: Color Theme**，选择 **Porcelain Botany Theme Light** 或 **Porcelain Botany Theme Dark**。
+打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Preferences: Color Theme**，选择 **Porcelain Herbarium Theme Light** 或 **Porcelain Herbarium Theme Dark**。
 
 随时可用快捷键 `Ctrl+K Ctrl+T` 在两套变体之间快速切换。
 

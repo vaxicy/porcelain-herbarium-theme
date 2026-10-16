@@ -1,6 +1,6 @@
 {
   "name": "porcelain-herbarium-theme",
-  "displayName": "Porcelain Botany Theme",
+  "displayName": "Porcelain Herbarium Theme",
   "description": "Porcelain cream, dusty mauve and sage in coordinated light and dark themes.",
   "version": "1.0.0",
   "publisher": "lilinhuang",
@@ -32,14 +32,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Porcelain Botany Theme Light",
+        "label": "Porcelain Herbarium Theme Light",
         "uiTheme": "vs",
-        "path": "./themes/porcelain-botany-light-color-theme.json"
+        "path": "./themes/porcelain-herbarium-light-color-theme.json"
       },
       {
-        "label": "Porcelain Botany Theme Dark",
+        "label": "Porcelain Herbarium Theme Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/porcelain-botany-dark-color-theme.json"
+        "path": "./themes/porcelain-herbarium-dark-color-theme.json"
       }
     ]
   }

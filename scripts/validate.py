@@ -2,8 +2,8 @@ import json,re,zipfile
 from pathlib import Path
 from PIL import Image,ImageStat
 p=Path(__file__).resolve().parents[1]
-out=['# Porcelain Botany Theme color specification','', '| VS Code region | Light | Dark |','|---|---|---|']
-themes=[json.loads((p/'themes'/f'porcelain-botany-{v}-color-theme.json').read_text()) for v in ['light','dark']]
+out=['# Porcelain Herbarium Theme color specification','', '| VS Code region | Light | Dark |','|---|---|---|']
+themes=[json.loads((p/'themes'/f'porcelain-herbarium-{v}-color-theme.json').read_text()) for v in ['light','dark']]
 for k in themes[0]['colors']:
     out.append(f"| `{k}` | `{themes[0]['colors'][k]}` | `{themes[1]['colors'][k]}` |")
 (p/'COLOR-SPEC.md').write_text('\n'.join(out)+'\n',encoding='utf-8')

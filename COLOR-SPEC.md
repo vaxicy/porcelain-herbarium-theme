@@ -1,4 +1,4 @@
-# Porcelain Botany Theme color specification
+# Porcelain Herbarium Theme color specification
 
 | VS Code region | Light | Dark |
 |---|---|---|

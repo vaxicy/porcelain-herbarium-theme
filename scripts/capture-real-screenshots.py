@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Capture real VS Code windows running the Porcelain Botany theme.
+"""Capture real VS Code windows running the Porcelain Herbarium theme.
 
 For every variant (light / dark) the script:
   1. builds an isolated VS Code profile (own --user-data-dir / --extensions-dir),
@@ -42,11 +42,11 @@ EXTRA_CROP = 3
 PUBLISHER = "lilinhuang"
 NAME = "porcelain-herbarium-theme"
 VERSION = "1.0.0"
-WORK_NAME = "porcelain-botany-demo"   # demo folder name doubles as the window marker
+WORK_NAME = "porcelain-herbarium-demo"   # demo folder name doubles as the window marker
 
 VARIANTS = [
-    ("light", "Porcelain Botany Theme Light"),
-    ("dark", "Porcelain Botany Theme Dark"),
+    ("light", "Porcelain Herbarium Theme Light"),
+    ("dark", "Porcelain Herbarium Theme Dark"),
 ]
 
 user32 = ctypes.WinDLL("user32", use_last_error=True)
