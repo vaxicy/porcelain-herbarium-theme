@@ -2,7 +2,7 @@
   "name": "porcelain-herbarium-theme",
   "displayName": "Porcelain Herbarium Theme",
   "description": "Porcelain cream, dusty mauve and sage in coordinated light and dark themes.",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "publisher": "lilinhuang",
   "engines": {
     "vscode": "^1.80.0"

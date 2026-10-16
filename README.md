@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme"><img src="https://img.shields.io/badge/VS%20Code-Theme-71869B?logo=visual-studio-code" alt="VS Code Theme"></a>
-  <img src="https://img.shields.io/badge/version-0.0.1-48515A?logo=visual-studio-code" alt="version 0.0.1">
+  <img src="https://img.shields.io/badge/version-1.0.1-48515A?logo=visual-studio-code" alt="version 1.0.1">
   <img src="https://img.shields.io/badge/Variants-Light%20%26%20Dark-C4A7B7?logo=visual-studio-code" alt="Light and Dark variants">
   <a href="https://github.com/vaxicy/porcelain-herbarium-theme/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Non--Commercial-lightgrey" alt="License: Non-Commercial"></a>
 </p>
 
 A botanical study pressed onto porcelain: **cream-white paper**, **dusty mauve petals**, **sage leaves** and **blue-gray slate ink**. The light variant reads like a flower album on a sunlit desk; the dark variant is the same album after dusk, paper turned deep slate and ink swapped for pale sage. Both variants are cut from one palette, so switching changes the light level rather than the character of the workspace.
 
-把一份植物标本压在瓷面上：**奶白的纸**、**干花藕紫**、**鼠尾草绿**，还有**灰蓝的墨**。浅色版是日光下的干花册，深色版是同一本册子入了夜——纸面沉成深石板，墨色换成浅鼠尾草。两套变体共用一套色板，切换时只是光线变了，配色还是同一套。
+把一份植物标本压在瓷面上：**奶白的纸**、**干花藕紫**、**鼠尾草绿**，还有**灰蓝的墨**。浅色版是日光下的干花册，深色版是同一本册子入了夜——纸面沉成深石板，墨色换成浅鼠尾草。两套变体共用一套色板，切换只是深浅变了，配色还是同一套。
 
 ## Preview / 预览
 
@@ -110,12 +110,12 @@ Every surface below is themed in both variants (144 UI colors each):
 Requires VS Code 1.80 or newer.
 
 1. Search for **Porcelain Herbarium Theme** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or open the [Marketplace page](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme).
-2. Or install from a VSIX: download `porcelain-herbarium-theme-0.0.1.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
+2. Or install from a VSIX: download `porcelain-herbarium-theme-1.0.1.vsix`, open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Extensions: Install from VSIX...**.
 
 需要 VS Code 1.80 或更高版本。
 
 1. 在扩展面板（`Ctrl+Shift+X` / `Cmd+Shift+X`）搜索 **Porcelain Herbarium Theme**，或打开 [Marketplace 页面](https://marketplace.visualstudio.com/items?itemName=lilinhuang.porcelain-herbarium-theme)。
-2. 也可以从 VSIX 安装：下载 `porcelain-herbarium-theme-0.0.1.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选中该文件。
+2. 也可以从 VSIX 安装：下载 `porcelain-herbarium-theme-1.0.1.vsix`，打开命令面板（`Ctrl+Shift+P` / `Cmd+Shift+P`），运行 **Extensions: Install from VSIX...** 并选中该文件。
 
 Or from the command line:
 
